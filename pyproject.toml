@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "onnxtest"
+version = "0.1.0"
+description = ""
+authors = ["Ftps <ftpsflandre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.1"
+numpy = "^1.26.2"
+onnx = "^1.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
